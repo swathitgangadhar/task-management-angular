@@ -1,0 +1,24 @@
+<div class="board">
+    <div class="column" *ngFor="let col of columns$ | async" [id]="col.id">
+      <h3>{{ col.title }}</h3>
+      <button (click)="addTask(col.id)">+ Task</button>
+  
+      <div
+        cdkDropList
+        [id]="col.id"
+        [cdkDropListData]="col.tasks"
+        (cdkDropListDropped)="drop($event)"
+        class="task-list"
+      >
+        <div
+          *ngFor="let task of col.tasks"
+          cdkDrag
+          class="task-card"
+        >
+          {{ task.title }}
+          <button (click)="deleteTask(col.id, task.id)">x</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
