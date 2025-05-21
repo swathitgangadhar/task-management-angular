@@ -1,6 +1,27 @@
 # TaskManagementAngular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+A lightweight, Trello-inspired task management application built with Angular and RxJS.
+This app allows users to create boards, add draggable task cards, and manage tasks with real-time state updates using reactive programming.
+
+🚀 Features
+📋 Create and manage multiple task boards
+
+🗂️ Add, edit, and delete columns and cards
+
+🔄 Drag & drop tasks between columns using Angular CDK
+
+⚡ Real-time updates with RxJS state management
+
+🧠 Optimistic UI updates with RxJS operators
+
+🛠️ Tech Stack
+Angular for UI components and structure
+
+RxJS for reactive state management
+
+Angular CDK DragDrop for drag-and-drop functionality
+
+TypeScript for strong typing and maintainability
 
 ## Development server
 
