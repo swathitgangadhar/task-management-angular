@@ -4,6 +4,7 @@ A lightweight, Trello-inspired task management application built with Angular an
 This app allows users to create boards, add draggable task cards, and manage tasks with real-time state updates using reactive programming.
 
 🚀 Features
+
 📋 Create and manage multiple task boards
 
 🗂️ Add, edit, and delete columns and cards
